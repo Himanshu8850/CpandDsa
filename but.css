@@ -1,0 +1,131 @@
+.but {
+  width: 150px;
+  height: 100px;
+  font-size: 30px;
+}
+.load {
+  width: 150px;
+  height: 100px;
+  font-size: 30px;
+}
+.clear {
+  width: 150px;
+  height: 100px;
+  font-size: 30px;
+}
+.ques {
+  display: flex;
+  border: 1px solid black;
+  width: 200px;
+  margin-left: 45px;
+  height: 100px;
+  font-size: 90px;
+  justify-content: center;
+}
+.inp {
+  display: flex;
+  border: 1px solid black;
+  width: 900px;
+  /* position: relative; */
+  /* right: 200px; */
+  margin-left: 950px;
+  height: 100px;
+  font-size: 45px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.cont {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.inpbut {
+  width: 150px;
+  height: 100px;
+  font-size: 30px;
+  margin-left: 1200px;
+  margin-top: 50px;
+}
+.head {
+  display: flex;
+  border: 1px solid black;
+  width: 500px;
+  /* position: relative; */
+  /* right: 200px; */
+  margin-left: 950px;
+  height: 100px;
+  font-size: 45px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.links {
+  display: block;
+  font-size: 50px;
+  position: relative;
+  margin: 20px;
+  color: black;
+  width: fit-content;
+  height: max-content;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px 2px black;
+  background-color: rgb(58, 246, 133);
+  left: 30%;
+  padding: 10px;
+  top: 50px;
+}
+.links:hover {
+  /* background-color : rgb(121, 237, 237); */
+  padding: 20px;
+  transform: translateY(10px);
+  /* translate: X(10px); */
+}
+.red {
+  background-color: rgb(255, 83, 83);
+}
+.notinpbut {
+  width: 150px;
+  height: 100px;
+  font-size: 30px;
+  /* margin-left: 1200px; */
+  margin-top: 50px;
+  background-color: rgb(255, 41, 41);
+  color: white;
+}
+.green {
+  background-color: rgb(58, 246, 133);
+}
+button:hover {
+  background-color: orange;
+}
+.done {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 0px;
+  bottom: -60px;
+  margin: 10px;
+  background-color: lightgreen;
+  z-index: 10;
+  /* left: 0px; */
+  left: 50%;
+  border-radius: 50px;
+}
+.done:hover {
+  cursor: pointer;
+  background-color: rgb(63, 252, 63);
+  width: 80px;
+  height: 80px;
+}
+.link-container {
+  position: relative;
+  /* width: 500px; */
+}
